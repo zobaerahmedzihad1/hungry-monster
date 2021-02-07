@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hungry Monster</title>
+    <!-- Add Bootstrap link.  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Add CSS stylesheet link.  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Add title bar image. -->
+    <link rel="shortcut icon" href="images/Frame.svg" type="image/x-icon">
+</head>
+
+<body>
+    <main class="container">
+        <div class="input-group mt-5 sticky-top">
+            <input id="food" type="text" class="form-control" placeholder="Search Your Favorite Meal....." />
+            <button onclick="searchFood()" class="btn btn-info" type="button"> 
+          Search
+        </button>
+        </div>
+
+        <section id="description" class="d-flex justify-content-center align-items-center"></section>
+
+        <section id="showResult" class="row container">
+            <div class="row text-center">
+                <h1 class="mt-5 main-page">Do you want Delicious food ? <br> Please find out what kind of food you want...</h1>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- THANK YOU...! -->
