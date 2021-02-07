@@ -7,12 +7,12 @@ function searchFood() {
     fetch(url)
         .then((response) => response.json())
         .then((data) => {
-            showItems(data);
+            showFoodsAllInformation(data);
             recipeDetails(data);
         });
 }
 
-function showItems(data) {
+function showFoodsAllInformation(data) {
     data.meals.forEach((food) => {
         const foodDiv = document.createElement("div");
         foodDiv.style.width = "32%";
